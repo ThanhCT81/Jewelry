@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #222;
+}
+img {
+  max-width: 100%;
+}
+a {
+  color: #555;
+}
+
+a:hover {
+  color: #bd9049;
+}
+
+button,
+.btn,
+.btn-primary {
+  color: #222;
+  background-color: #ddd;
+  border-color: #ddd;
+  background-image: none;
+}

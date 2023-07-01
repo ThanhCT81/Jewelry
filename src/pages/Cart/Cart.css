@@ -1,0 +1,140 @@
+.breadcrumbs {
+  background: #f4f4f4;
+  text-align: left;
+  margin-bottom: 6rem;
+  padding: 2.3rem 0;
+}
+.breadcrumbs h1 {
+  font-size: 3.6rem;
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.025em;
+  font-weight: 400;
+}
+.breadcrumb {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.breadcrumb i {
+  font-size: 1.5rem;
+}
+.breadcrumb > li {
+  position: relative;
+  vertical-align: top;
+}
+.breadcrumb > li + li:before {
+  content: "/";
+  color: #242424;
+}
+.breadcrumb > li > a {
+  color: #242424;
+  text-transform: capitalize;
+}
+.breadcrumb > li > a:hover,
+.breadcrumb > li:last-child > a {
+  color: #c29958;
+}
+@media (max-width: 767px) {
+  .breadcrumbs {
+    padding: 4rem 0;
+    margin-bottom: 4rem;
+  }
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.bill {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5rem;
+}
+.bill table {
+  width: 35.1rem;
+}
+@media (max-width: 400px) {
+  .bill {
+    justify-content: center;
+  }
+}
+.input-qty {
+  height: 4.5rem;
+  color: #5a5a5a;
+  font-size: 1.4rem;
+  text-align: center;
+  width: 5rem;
+  border: #ddd solid 1px;
+}
+.btn-qty {
+  color: #222;
+  background-color: #ddd;
+  border-color: #ddd;
+  background-image: none;
+  line-height: 2.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: 0;
+
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+.table-cart {
+  width: 114rem;
+  margin: 0 auto;
+}
+.table-cart > thead > tr > td,
+.table-cart > tbody > tr > td {
+  padding: 0.8rem;
+  line-height: 1.42857143;
+  vertical-align: top;
+}
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 0.4rem;
+  line-height: 1.42857143;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+.table-cart a {
+  color: #555 !important;
+}
+.button-clearfix {
+  display: flex;
+  justify-content: space-between;
+}
+.button-clearfix .btn-default {
+  line-height: 2.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border: 0;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  text-transform: uppercase;
+}
+.button-clearfix .btn {
+  line-height: 2.5rem;
+  padding: 1rem 3.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border: 0;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  text-transform: uppercase;
+}

@@ -1,0 +1,120 @@
+.nav-link {
+  color: #603d2e;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin-right: 4rem;
+  font-family: "Lato", sans-serif !important;
+}
+.nav-link:hover {
+  color: #fff;
+}
+.navbar-brand {
+  display: block;
+}
+.Navbar-head {
+  justify-content: space-around;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: inherit;
+  align-items: center;
+}
+.d-flex {
+  position: relative;
+}
+.form-control {
+  padding: 1rem 2rem;
+  padding-left: 6rem;
+  height: 4.4rem;
+  border-radius: 3rem;
+  font-size: 1.4rem;
+  border: 0;
+  width: 100%;
+  z-index: 1;
+  background: #ddd;
+  color: #999999;
+}
+.search-icon {
+  vertical-align: middle !important;
+}
+.btn-search {
+  background: transparent;
+  border: none !important;
+  padding: 0 1rem;
+  border-radius: 3rem;
+  box-shadow: none;
+  text-shadow: none;
+  line-height: 4.2rem;
+  color: #222;
+  font-size: 1.8rem;
+  letter-spacing: 0;
+  font-weight: 400;
+  text-transform: capitalize;
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  z-index: 1;
+}
+.col-cart svg {
+  vertical-align: top !important;
+}
+.btn-search:hover {
+  color: #c29958;
+}
+.col-cart {
+  height: 2.6rem;
+  margin-left: 2rem;
+  font-size: 2.6rem;
+  display: flex;
+  color: #555555;
+}
+.cart-link {
+  position: relative;
+  height: 2.6rem;
+  margin-left: 2rem;
+}
+.cart-length {
+  width: 1.6rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  position: absolute;
+  top: -0.4rem;
+  left: 2rem;
+  font-weight: 700;
+  border-radius: 50%;
+  color: #fff;
+  background: #c29958;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.search-cart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wish-icon {
+  margin-left: 2rem;
+}
+@media screen and (max-width: 991px) {
+  .d-flex {
+    display: none !important;
+  }
+}
+.navbar-toggler {
+  margin-left: 2rem;
+}
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 9.6rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.098);
+
+  /* visibility: hidden; */
+}
